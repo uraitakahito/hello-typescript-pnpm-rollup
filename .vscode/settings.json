@@ -19,4 +19,40 @@
   "[jsonc]": {
     "editor.formatOnSave": false
   },
+
+  // To actually start using the workspace version for IntelliSense,
+  // you **MUST RUN** the TypeScript: Select TypeScript Version command
+  // and select the workspace version.
+  // https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-newer-typescript-versions
+  "typescript.tsdk": "./node_modules/typescript/lib",
+
+  // https://code.visualstudio.com/docs/typescript/typescript-editing
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.suggest.autoImports": true,
+
+  //
+  // ESLint
+  //
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // https://stackoverflow.com/a/71884347
+  "eslint.format.enable": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  }
 }
