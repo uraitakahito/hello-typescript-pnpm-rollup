@@ -18,7 +18,7 @@
     "eslint": "8",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "rollup": "^4.29.1",
+    "rollup": "^4.59.0",
     "tslib": "^2.8.1"
   }
 }
